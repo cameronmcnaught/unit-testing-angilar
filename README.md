@@ -2,15 +2,15 @@
 Make sure you have Karma installed globally on your machine.
 
 #To run the test case:
-&nbsp;1) Open a terminal
-&nbsp;2) Navigate to the project root folder
-&nbsp;3) Run the command:
-```
+1. Open a terminal
+2. Navigate to the project root folder
+3. Run the command:
+    ```
 karma start app/karma.conf.js
 ```
 #To view the coverage of the app:
-&nbsp;1) Open the index.html file found in:
-```
+1. Open the index.html file found in:
+    ```
 <path to root folder>/app/coverage/index.html
 ```
 ## Directory Layout
