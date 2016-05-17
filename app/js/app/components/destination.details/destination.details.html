@@ -1,0 +1,5 @@
+<span>{{$ctrl.destination.city}}, {{$ctrl.destination.country}}</span>
+<span ng-if="$ctrl.destination.weather"> - {{$ctrl.destination.weather.main}}, {{$ctrl.destination.weather.temp}}</span>
+<button ng-click="$ctrl.onRemove()">Remove</button>
+<button ng-click="$ctrl.getWeather($ctrl.destination)">Update Weather</button>
+<span>{{ctrl.index}}</span>
