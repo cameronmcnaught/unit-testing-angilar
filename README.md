@@ -1,7 +1,7 @@
-#Requirements
+# Requirements
 Make sure you have Karma installed globally on your machine.
 
-##To run the test case:
+## To run the test case:
 1. Open a terminal
 2. Navigate to the project root folder
 3. Run the command:
@@ -9,7 +9,7 @@ Make sure you have Karma installed globally on your machine.
 karma start app/karma.conf.js
 ```
 
-##To view the coverage of the app:
+## To view the coverage of the app:
 1. Open the index.html file found in:
 ```
 <path to root folder>/app/coverage/index.html
